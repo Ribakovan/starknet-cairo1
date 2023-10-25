@@ -22,5 +22,6 @@ fn test_arrays3() {
     let mut a = create_array();
     //TODO modify the method called below to make the test pass.
     // You should not change the index accessed.
+    a.append(2);
     a.at(2);
 }
